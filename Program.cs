@@ -1,10 +1,12 @@
+using Model.User;
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
-app.Use(Configure);
+app.Use(RegisterSimulation);
 
 
 app.Run();
-async Task Configure(HttpContext context, Func<Task> next){
-    context.Response.ContentType = "text/plain; charset=utf-8";
-    await context.Response.WriteAsync("Сработал  Use");
+async Task RegisterSimulation(HttpContext context, Func<Task> next){
+    User user = new User(1,"Bob", "bob@email.com", "bob password");
+    user.ShowInformation(context, "password");
+    user.ShowInformation(context, "bob passwordt");
 }
