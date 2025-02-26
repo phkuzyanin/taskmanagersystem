@@ -1,4 +1,5 @@
 using System;
+using Model.List;
 namespace Model.Board;
 
 public class Board{
@@ -6,6 +7,8 @@ public class Board{
     string? Name{get; set;}             //имя доски
     DateTime CreatedAt{get; set;}       //дата создания
     int UserId{get; set;}               //id создателя
+
+    List<ListCard> ListCards;
     public Board(int id, string? name, int userId)
     {
         Id = id;
