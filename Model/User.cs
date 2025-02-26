@@ -1,6 +1,6 @@
 using System;
 namespace Model.User;
-class User(){
+public class User{
     int Id{                        //Хранит id пользователя
         get; set;  
     }
@@ -16,7 +16,7 @@ class User(){
     DateTime CreatedAt{             //Хранит вреся создания пользователя
         get; set;
     }
-    public User(int id, string username, string email, string password) :this()
+    public User(int id, string username, string email, string password)
     {
         Id = id;
         Username = username;
