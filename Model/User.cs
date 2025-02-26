@@ -1,21 +1,11 @@
 using System;
 namespace Model.User;
 public class User{
-    int Id{                        //Хранит id пользователя
-        get; set;  
-    }
-    string? Username{               //Хранит имя пользователя
-        get; set;
-    }
-    string? Email{                  //Хранит адресс почты пользователя
-        get; set;
-    }
-    string? PasswordHash{           //Хранит хэш пароля пользователя
-        get; set;
-    }
-    DateTime CreatedAt{             //Хранит вреся создания пользователя
-        get; set;
-    }
+    int Id{get; set;}                        //Хранит id пользователя
+    string? Username{get; set;}               //Хранит имя пользователя
+    string? Email{get; set;}                  //Хранит адресс почты пользователя
+    string? PasswordHash{get; set;}           //Хранит хэш пароля пользователя
+    DateTime CreatedAt{get; set;}             //Хранит вреся создания пользователя
     public User(int id, string username, string email, string password)
     {
         Id = id;
