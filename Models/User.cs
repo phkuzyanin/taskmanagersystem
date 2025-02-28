@@ -1,5 +1,5 @@
 using System;
-namespace Model.User;
+namespace Models.User;
 public class User{
     int Id{get; set;}                        //Хранит id пользователя
     string? Username{get; set;}               //Хранит имя пользователя

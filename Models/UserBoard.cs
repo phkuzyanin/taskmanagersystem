@@ -1,5 +1,5 @@
 using System;
-namespace Model.UserBoard;
+namespace Models.UserBoard;
 
 public class UserBoard{
     int Id{get;set;}                    //id участника доски

@@ -1,5 +1,5 @@
 using System;
-namespace Model.Label;
+namespace Models.Label;
 
 public class Label{
     int Id{get;set;}            //Id метки

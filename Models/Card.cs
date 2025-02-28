@@ -1,5 +1,5 @@
 using System;
-namespace Model.Card;
+namespace Models.Card;
 
 public class Card{
 int Id{get;set;}                        //id карточки

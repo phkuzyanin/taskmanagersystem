@@ -1,5 +1,5 @@
 using System;
-namespace Model.Comment;
+namespace Models.Comment;
 
 public class Comment{
     int Id{get; set;}                   //id комментария

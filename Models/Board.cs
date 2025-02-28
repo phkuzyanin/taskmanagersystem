@@ -1,6 +1,6 @@
 using System;
-using Model.List;
-namespace Model.Board;
+using Models.List;
+namespace Models.Board;
 
 public class Board{
     int Id{get; set;}                   //id доски

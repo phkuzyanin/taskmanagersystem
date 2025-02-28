@@ -1,5 +1,5 @@
 using System;
-namespace Model.List;
+namespace Models.List;
 
 public class ListCard{
 
