@@ -1,6 +1,6 @@
 using System;
 namespace Models.Comment;
-
+/*
 public class Comment{
     int Id{get; set;}                   //id комментария
     string? Text{get; set;}             //текст комментария
@@ -15,4 +15,4 @@ public class Comment{
         UserId = userId;
         CardId = cardId;
     }
-}
+}*/

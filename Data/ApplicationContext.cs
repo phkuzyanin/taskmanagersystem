@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using Model.User;
+using Models.User;
+namespace Db.ApplicationContext;
 public class ApplicationContext : DbContext
 {
  public DbSet<User> Users => Set<User>();

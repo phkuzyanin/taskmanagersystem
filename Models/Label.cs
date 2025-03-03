@@ -1,7 +1,7 @@
 using System;
 namespace Models.Label;
 
-public class Label{
+/*public class Label{
     int Id{get;set;}            //Id метки
     string? Name{get;set;}      //Имя метки
     int Color{get;set;}         //Цвет метки
@@ -13,4 +13,4 @@ public class Label{
         Color = color;
         BoardId = boardId;
     }
-}
+}*/

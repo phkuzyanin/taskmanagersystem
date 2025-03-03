@@ -1,5 +1,5 @@
 using System;
-using Models.List;
+/*using Models.List;
 using Models.User;
 
 namespace Services.ICardService;
@@ -12,4 +12,4 @@ interface ICardService{
     Task<ListCard> AddLabelToCard();
     Task<ListCard> MoveCard();
     Task<User> AddCommentToCard();
-}
+}*/

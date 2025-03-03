@@ -2,7 +2,7 @@ using System;
 using Models.List;
 namespace Models.Board;
 
-public class Board{
+/*public class Board{
     int Id{get; set;}                   //id доски
     string? Name{get; set;}             //имя доски
     DateTime CreatedAt{get; set;}       //дата создания
@@ -16,4 +16,4 @@ public class Board{
         CreatedAt = DateTime.Now;
         UserId = userId;
     }
-}
+}*/
