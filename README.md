@@ -15,4 +15,6 @@
 ## Каллассы и интерфейсы папки Sevices
 *В списке пункты идут по паре интерфейс/класс, реализующий интерфейс*
 - [x] IUserService - реализует действия с классом User
-- [ ]UserSerfice - класс, реализующий интерфейс IUserService
+- [ ] UserSerfice - класс, реализующий интерфейс IUserService
+- [x] ICardService -  реализует действия с классом  Card
+- [ ] CardService - класс, реализуующий интерфейс ICardService

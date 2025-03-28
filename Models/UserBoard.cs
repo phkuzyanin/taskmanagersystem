@@ -1,6 +1,6 @@
 using System;
 namespace Models.UserBoard;
-/*
+
 public class UserBoard{
     int Id{get;set;}                    //id участника доски
     int UserId{get;set;}                //id пользователя
@@ -11,4 +11,4 @@ public class UserBoard{
         UserId = userId;
         BoardId = boardId;
     }
-}*/
+}

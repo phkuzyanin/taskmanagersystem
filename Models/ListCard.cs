@@ -1,7 +1,7 @@
 using System;
 namespace Models.List;
 
-/*public class ListCard{
+public class ListCard{
 
     int Id{get;set;}
     string? Name{get; set;}
@@ -13,4 +13,4 @@ namespace Models.List;
         BoardId = boardId;
         Position = position;
     }
-}*/
+}

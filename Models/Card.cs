@@ -1,6 +1,6 @@
 using System;
 namespace Models.Card;
-/*
+
 public class Card{
 int Id{get;set;}                        //id карточки
 string? Title{get;set;}                 //Заголовок карточки
@@ -19,4 +19,4 @@ public Card(int id, string? title, string? description, int listId, int position
         DueDate = dueDate;
         CreatedAt = DateTime.Now;
     }
-}*/
+}
